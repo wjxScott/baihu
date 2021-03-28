@@ -38,7 +38,7 @@ java.util下的集合类都是fail-fast，不能在多线程下发生并发修�
 
 安全失败（fail—safe）：fail-safe任何对集合结构的修改都会在一个复制的集合上进行修改，因此不会抛出ConcurrentModificationException
 
-fai-safe有两个问题：
+fail-safe有两个问题：
 1. 需要复制集合，产生大量的无效对象，开销很大
 2. 无法保证读取的数据是目前原始结构中的数据
 
